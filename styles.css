@@ -1,0 +1,171 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.logo{
+  padding: 25px;
+  
+}
+
+header{
+  background-color: #dacbbf;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu{
+  border-top: 3px solid rgba(198, 184, 180,0.4);
+}
+
+.home{
+  list-style: none;
+  display: flex;
+  margin-right: 25px;
+}
+
+.home li{
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.home li a{
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #f780a1;
+  font-family: Segoe UI;
+  font-weight: bold;
+}
+
+.home li a:hover{
+  color: #dc6c84;
+}
+
+h1{
+  margin-left: 25px;
+  font-family: Segoe UI;
+  color: #dc6c84;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h2{
+  font-family: Segoe UI;
+  margin-left: 25px;
+ 
+}
+
+h2 a{
+   color: #dc6c84;
+   text-decoration: none;
+}
+
+h3{
+  font-family: Segoe UI;
+  margin-left: 25px;
+  color: #dc6c84;
+}
+
+#search{
+  justify-content: space-between;
+  color: #dc6c84;
+  border-radius: 8px;
+  border-color: #f780a1;
+  font-weight: bold;
+}
+
+#text{
+  margin-left: 145px;
+  border-radius: 8px;
+  border-color: #f780a1;
+  color: #c6b8b4
+}
+
+#container{
+  display: flex;
+}
+
+main{
+  flex: 35%;
+}
+
+aside{
+  flex: 65%;
+}
+
+aside{
+  background-color: #dacbbf;
+  padding: 10px;
+  margin-top: 20px;
+  box-sizing: border box;
+}
+
+main{
+  background-color: #dacbbf;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+#name{
+  font-size: 15px;
+  margin-right: 25px;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-color: #f780a1;
+  color: #c6b8b4;
+}
+
+#email{
+  font-size: 15px;
+  margin-right: 25px;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-color: #f780a1;
+  color: #c6b8b4;
+}
+
+#pass{
+  font-size: 15px;
+  margin-right: 25px;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-color: #f780a1;
+  color: #c6b8b4;
+}
+
+#passa{
+  font-size: 15px;
+  margin-right: 25px;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-color: #f780a1;
+  color: #c6b8b4;
+}
+
+#sign{
+   font-size: 12px;
+   font-family: Segoe UI;
+   font-weight: bold;
+  margin-right: 25px;
+  margin-left: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-color: #f780a1;
+  color: #dc6c84;
+}
+
+.hk{
+  margin-left: 120px;
+  margin-top: 35px;
+}
+
+.botoes{
+  display: inline-block;
+}
